@@ -4,14 +4,14 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 
-import { MatInputModule } from '@angular/material';
+import { AngularMaterialLibrary } from './angular-material-library.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule,  MatInputModule
+    BrowserModule, BrowserAnimationsModule, AngularMaterialLibrary
   ],
   providers: [],
   bootstrap: [AppComponent]
