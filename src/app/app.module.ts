@@ -4,12 +4,16 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AngularMaterialLibrary } from './angular-material-library/angular-material-library.module';
 
 import { AppComponent } from './app.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, AngularMaterialLibrary
