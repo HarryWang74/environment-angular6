@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AngularMaterialLibrary } from './angular-material-library/angular-material-library.module';
@@ -16,7 +17,7 @@ import { ChildComponent } from './child/child.component';
     ChildComponent
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule, AngularMaterialLibrary
+    BrowserModule, BrowserAnimationsModule, AngularMaterialLibrary, FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
