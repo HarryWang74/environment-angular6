@@ -38,11 +38,13 @@ import {
   MatToolbarModule,
   MatTooltipModule
 } from '@angular/material';
+import { ShowMeMyMoneyPipe } from './show-me-my-money.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    ShowMeMyMoneyPipe,
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule,
