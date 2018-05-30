@@ -39,7 +39,6 @@ import {
   MatTooltipModule
 } from '@angular/material';
 
-
 @NgModule({
   declarations: [
     AppComponent
